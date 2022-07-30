@@ -1,10 +1,9 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 20;
+    padding: 10;
     box-sizing: border-box;
 }
 body {
-    background: #eee;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -12,15 +11,47 @@ body {
 
 header{
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.header-links{
     padding: 15px;
     text-decoration: none;
-    color: black;
-    border-right: gray solid 2px;
+    color: orange;
+    border-left: black solid 2px;
     display: flex;
     text-transform: uppercase;
 }
 
-footer{
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+.testimonial{
+    
+}
+
+.questions{
+    
+}
+
+.train-images{
+    display: flex;
+    flex-direction: row;
+    max-width: 30px;
+    height: 30px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    background: #461D7C;
+    color: white;
+    padding: 15px;
+    font-family: Dosis;
+    justify-content: center;
+    margin: 0;
 }
