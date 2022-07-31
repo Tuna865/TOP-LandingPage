@@ -1,5 +1,7 @@
 * {
     margin-left: 0px;
+    margin-top: 0px;
+    margin-right: 0px;
 }    
 body {
     display: flex;
@@ -12,7 +14,8 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    
+    background-color: lightblue;
+    border: black solid 1px;
 }
 
 .nav-list{
@@ -26,21 +29,31 @@ body {
     text-decoration: none;
     border-left: black solid 2px;
     display: flex;
-    text-transform: uppercase;
     align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
 }
 
 .testimonial{
     border: black solid 1px;
     justify-content: center;
     align-items: center;
+    background-color: rgb(205, 248, 187);
+    padding: 5px;
 }
 
 .questions{
+    margin-top: 30px;
+    margin-bottom: 30px;
     border: black solid 1px;
     display: flex;
     padding-bottom: 2px;
     flex-direction: column;
+    background-color: rgb(224, 172, 103);
+
 }
 
 .train-icons{
@@ -59,6 +72,7 @@ footer{
     color: white;
     font-family: Dosis;
     justify-content: center;
+    align-items: center;
     position: absolute;
     bottom: 0;
     width: 100%;
