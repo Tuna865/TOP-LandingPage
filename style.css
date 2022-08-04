@@ -7,6 +7,8 @@ body {
     display: flex;
     flex-direction: column;
     height: 100%;
+    row-gap: 75px;
+
 }
 
 .main-nav{
@@ -16,6 +18,7 @@ body {
     align-items: center;
     background-color: lightblue;
     border: black solid 1px;
+    font-family: 'Inconsolata', monospace;
 }
 
 .nav-list{
@@ -35,6 +38,8 @@ body {
 main{
     display: flex;
     flex-direction: column;
+    row-gap: 40px;
+
 }
 
 .testimonial{
@@ -43,22 +48,27 @@ main{
     align-items: center;
     background-color: rgb(205, 248, 187);
     padding: 5px;
-    box-shadow: 0 2px 4px -2px black;
+    box-shadow: 0 2px 4px -1px black;
     margin-left: 500px;
-    margin-right: 80px;
+    margin-right: 200px;
+    border-radius: 10px;
+    font-family: 'Square Peg', cursive;
+    font-weight: 600;
+    padding-left: 30px;
 }
 .testimonial-author{
     border: black solid 1px;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(205, 248, 187);
+    background-color: rgb(245, 190, 190);
     padding: 5px;
-    box-shadow: 0 2px 4px -2px black;
+    box-shadow: 0 2px 4px -1px black;
     margin-left: 700px;
     margin-right: 400px;
+    border-radius: 10px;
+    font-family: 'Square Peg', cursive;
+    font-weight: 600;
 }
 
-.questions{
+.questions-block{
     margin-top: 30px;
     margin-bottom: 30px;
     border: black solid 1px;
@@ -66,9 +76,17 @@ main{
     padding-bottom: 2px;
     flex-direction: column;
     background-color: rgb(224, 172, 103);
-    box-shadow: 0 2px 4px -2px black;
+    box-shadow: 0 2px 6px -1px black;
     margin-left: 20px;
     margin-right: 370px;
+    border-radius: 10px;
+}
+
+.questions{
+    padding-left: 5px;
+    padding-top: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .train-icons{
